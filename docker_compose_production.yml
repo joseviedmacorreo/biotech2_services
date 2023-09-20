@@ -67,7 +67,7 @@ services:
       - "localhost:192.168.5.220"
 
     environment:
-      EMQX_NAME: biotech_services
+      EMQX_NAME: biotech
       EMQX_HOST: 127.0.0.1
 
       TZ: "${TZ}"
